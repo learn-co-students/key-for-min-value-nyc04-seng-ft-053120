@@ -16,3 +16,15 @@ def key_for_min_value(hash)
   end
   lowest_key
 end
+
+=begin 
+def string_infinity_generator(num)
+  arr = []
+  
+  (1..Float::INFINITY).each do |i|
+    arr << i.to_s 
+    break if i == num
+  end 
+  
+  arr
+=end 
