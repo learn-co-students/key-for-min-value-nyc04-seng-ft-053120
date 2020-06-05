@@ -18,6 +18,5 @@ def string_infinity_generator(num)
     arr << i.to_s 
     break if i == num
   end 
-  
   arr
 =end 
