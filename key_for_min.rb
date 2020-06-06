@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(hashy)
-lowest_v = 10000000
+lowest_v = Float::INFINITY
 lowest_k = nil
   hashy.each do | object , cost  |
     if cost < lowest_v
